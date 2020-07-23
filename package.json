@@ -1,0 +1,19 @@
+{
+  "name": "crud-interfaces",
+  "version": "1.2.0",
+  "description": "TypeScript interfaces for CRUD Services and Controllers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crud",
+    "interfaces",
+    "controller",
+    "service",
+    "express"
+  ],
+  "author": "Hade Mohamed",
+  "license": "MIT"
+}
