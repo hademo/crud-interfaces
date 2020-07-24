@@ -1,5 +1,5 @@
 export interface ApiResponse<T> {
     data: T;
     message: string;
-    status: 200;
+    status: number;
 }
