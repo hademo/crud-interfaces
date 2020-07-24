@@ -32,3 +32,5 @@ export {PagingQuery} from './dto/request/query/PagingQuery'
 export {ApiResponse} from './dto/response/ApiResponse'
 export {PagedResponse} from './dto/response/PagedResponse'
 
+// utils
+export {ResponseUtils} from './dto/response/ResponseUtils'
