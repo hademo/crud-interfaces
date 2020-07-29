@@ -2,11 +2,11 @@ import { ApiResponse } from "../dto/response/ApiResponse";
 
 export interface CrudController<TResponse, TCreateRequest, TUpdateRequest>
     {
-        getOne(): Promise<ApiResponse<TResponse>>;
+        getOne(req, res): Promise<ApiResponse<TResponse>>;
 
-        create(createRequest: TCreateRequest): Promise<ApiResponse<TResponse>>;
+        create(createRequest: TCreateRequest, req, res): Promise<ApiResponse<TResponse>>;
 
-        update(updateRequest: TUpdateRequest): Promise<ApiResponse<TResponse>>;
+        update(updateRequest: TUpdateRequest, req, res): Promise<ApiResponse<TResponse>>;
 
-        delete(): Promise<any>;
+        delete(req, res): Promise<any>;
     }

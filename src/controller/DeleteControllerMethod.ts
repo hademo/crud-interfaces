@@ -1,3 +1,3 @@
 export interface DeleteControllerMethod {
-    delete(): Promise<any>;
+    delete(req, res): Promise<any>;
 }

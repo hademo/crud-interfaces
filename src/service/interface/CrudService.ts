@@ -1,3 +1,4 @@
+
 export interface CrudService<TResponse, TCreateRequest, TUpdateRequest, TIdentifier> {
     create(createRequest: TCreateRequest): Promise<TResponse>;
 

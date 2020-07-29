@@ -1,5 +1,5 @@
 import { ApiResponse } from "../dto/response/ApiResponse";
 
 export interface GetOneControllerMethod<TResponse> {
-    getOne(): Promise<ApiResponse<TResponse>>
+    getOne(req, res): Promise<ApiResponse<TResponse>>
 }

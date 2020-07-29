@@ -1,5 +1,5 @@
 import { ApiResponse } from "../dto/response/ApiResponse";
 
 export interface NonPagingControllerMethod<TResponse> {
-    getAll(search?: string): Promise<ApiResponse<TResponse[]>>
+    getAll(search: string | undefined, req, res): Promise<ApiResponse<TResponse[]>>
 }

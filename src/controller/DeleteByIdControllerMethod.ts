@@ -1,3 +1,3 @@
 export interface DeleteByIdControllerMethod<TIdentifier> {
-    deleteById(id: TIdentifier): Promise<any>;
+    deleteById(id: TIdentifier, req, res): Promise<any>;
 }
