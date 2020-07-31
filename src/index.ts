@@ -12,6 +12,8 @@ export { PagingServiceMethod } from './service/interface/PagingServiceMethod'
 export { PagingWithUserIdServiceMethod } from './service/interface/PagingWithUserIdServiceMethod'
 export { UpdateByIdServiceMethod } from './service/interface/UpdateByIdServiceMethod'
 export { UpdateServiceMethod } from './service/interface/UpdateServiceMethod'
+export { UpdateByIdAndUserIdServiceMethod } from './service/interface/UpdateByIdAndUserIdServiceMethod'
+export { UpdateWithUserIdServiceMethod } from './service/interface/UpdateWithUserIdServiceMethod copy'
 
 // Controller
 export { CreateControllerMethod } from './controller/CreateControllerMethod'
