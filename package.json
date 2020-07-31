@@ -1,6 +1,6 @@
 {
   "name": "nest-crud-interfaces",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TypeScript interfaces for CRUD Services and Controllers of NestJs Framework",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
