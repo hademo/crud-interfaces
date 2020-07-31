@@ -13,7 +13,7 @@ export { PagingWithUserIdServiceMethod } from './service/interface/PagingWithUse
 export { UpdateByIdServiceMethod } from './service/interface/UpdateByIdServiceMethod'
 export { UpdateServiceMethod } from './service/interface/UpdateServiceMethod'
 export { UpdateByIdAndUserIdServiceMethod } from './service/interface/UpdateByIdAndUserIdServiceMethod'
-export { UpdateWithUserIdServiceMethod } from './service/interface/UpdateWithUserIdServiceMethod copy'
+export { UpdateWithUserIdServiceMethod } from './service/interface/UpdateWithUserIdServiceMethod'
 
 // Controller
 export { CreateControllerMethod } from './controller/CreateControllerMethod'
